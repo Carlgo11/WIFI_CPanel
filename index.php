@@ -47,7 +47,7 @@ if (isset($_POST['username'])) {
                 <input class="form-control" type="text" name="username" id="username" required="" placeholder="Username"/>
                 <input class="form-control" type="password" name="password" id="password" required=""  placeholder="Password"/>
                 <div class="form-group" id="days">
-                    <label for="expiry_days" class="control-label col-sm-4">Days</label>
+                    <label for="expiry_days" class="control-label col-sm-4">24 hours</label>
                     <div class="col-sm-6">
                         <input class="form-control" type="checkbox" name="expire" id="expire">
                     </div>
